@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="220.0" prefWidth="480.0" maxHeight="220" xmlns="http://javafx.com/javafx/8.0.241" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iksoks.FXMLDocumentController">    
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="231.0" prefWidth="431.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button fx:id="b1" onAction="#handleButton1Action" layoutX="14.0" layoutY="14.0" prefHeight="57.0" prefWidth="57.0" text=" " styleClass="button"/>
+            <Button fx:id="b2" onAction="#handleButton2Action" layoutX="80.0" layoutY="14.0" prefHeight="57.0" prefWidth="57.0" text=" " styleClass="button"/>
+            <Button fx:id="b3" onAction="#handleButton3Action" layoutX="147.0" layoutY="14.0" prefHeight="57.0" prefWidth="57.0" text=" " styleClass="button"/>
+            <Button fx:id="b4" onAction="#handleButton4Action" layoutX="14.0" layoutY="80.0" prefHeight="57.0" prefWidth="57.0" text=" " styleClass="button"/>
+            <Button fx:id="b5" onAction="#handleButton5Action" layoutX="80.0" layoutY="80.0" prefHeight="57.0" prefWidth="57.0" text=" " styleClass="button"/>
+            <Button fx:id="b6" onAction="#handleButton6Action" layoutX="147.0" layoutY="80.0" prefHeight="57.0" prefWidth="57.0" text=" " styleClass="button"/>
+            <Button fx:id="b7" onAction="#handleButton7Action" layoutX="14.0" layoutY="145.0" prefHeight="57.0" prefWidth="57.0" text=" " styleClass="button"/>
+            <Button fx:id="b8" onAction="#handleButton8Action" layoutX="80.0" layoutY="145.0" prefHeight="57.0" prefWidth="57.0" text=" " styleClass="button"/>
+            <Button fx:id="b9" onAction="#handleButton9Action" layoutX="147.0" layoutY="145.0" prefHeight="57.0" prefWidth="57.0" text=" " styleClass="button"/>
+            <TextArea fx:id="console" layoutX="213.0" layoutY="16.0" prefHeight="186.0" prefWidth="250.0" text="console" styleClass="console"/>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
