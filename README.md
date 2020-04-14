@@ -16,3 +16,6 @@ Post any improvements of the code [here](https://github.com/LukeOnuke/Tic-Tack-T
 
 ## Have a sugesstion?
 Post them [Here](https://github.com/LukeOnuke/Tic-Tack-Toe/issues/new)
+
+# Libraries and Tools used:
+Gluon Scene
